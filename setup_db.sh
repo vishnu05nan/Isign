@@ -1,0 +1,2 @@
+#/bin/bash
+sqlite3 server.db "create table server(id INTEGER PRIMARY KEY AUTOINCREMENT, car_id CHARACTER(12) NOT NULL, time DATETIME NOT NULL, roadspeed INTEGER, vehicle_speed INTEGER, severity INTEGER);"
